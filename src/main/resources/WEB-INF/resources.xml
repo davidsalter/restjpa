@@ -1,0 +1,10 @@
+<Resource id="customerDatasource" type="javax.sql.DataSource">
+    defaultAutoCommit = true
+    jdbcDriver = org.hsqldb.jdbcDriver
+    jdbcUrl = jdbc:hsqldb:mem:hsqldb
+    jtaManaged = true
+    maxActive = 20
+    password =
+    passwordCipher = PlainText
+    userName = sa
+</Resource>
